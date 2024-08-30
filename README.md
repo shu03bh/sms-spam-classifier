@@ -16,7 +16,7 @@
 To run this project locally, follow these steps:
 
 --**Clone the Repository:**
-git clone https://github.com/your-username/sms-spam-classifier.git
+git clone https://github.com/shu03bh/sms-spam-classifier.git
 cd sms-spam-classifier
 
 --**Install Dependencies:** Ensure you have Python installed. Then, install the required packages using pip:
