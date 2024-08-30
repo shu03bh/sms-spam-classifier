@@ -1,4 +1,5 @@
 **SMS Spam Classifier**
+
 *Project Overview*
 --This project is an SMS Spam Classifier that leverages machine learning to distinguish between spam and non-spam (ham) messages. The primary goal of this classifier is to provide a simple, yet effective solution for filtering out unwanted and potentially harmful spam messages.
 
@@ -14,34 +15,25 @@
 9. Installation
 To run this project locally, follow these steps:
 
---Clone the Repository:
+--**Clone the Repository:**
 git clone https://github.com/your-username/sms-spam-classifier.git
 cd sms-spam-classifier
 
---Install Dependencies: Ensure you have Python installed. Then, install the required packages using pip:
+--**Install Dependencies:** Ensure you have Python installed. Then, install the required packages using pip:
 pip install -r requirements.txt
 
---Run the Application: Start the Streamlit application:
+--**Run the Application:** Start the Streamlit application:
 streamlit run app.py
 
---Access the Application: Open your browser and go to http://localhost:8501 to interact with the SMS Spam Classifier.
+--**Access the Application:** Open your browser and go to http://localhost:8501 to interact with the SMS Spam Classifier.
+
 
 **Dataset**
 The classifier was trained on a labeled dataset containing over 5,500 SMS messages, each categorized as spam or ham. The dataset includes diverse examples of spam messages, helping the model learn to identify different types of spam content.
 
-Project Structure
 
-sms-spam-classifier/
-│
-├── app.py                 # Streamlit application script
-├── model.py               # Script for training the ML model
-├── spam_classifier.pkl    # Pre-trained model file
-├── requirements.txt       # List of dependencies
-├── README.md              # Project documentation
-└── dataset/               # Directory containing the SMS dataset
-    └── spam.csv           # CSV file with labeled SMS messages
-How to Contribute
+**How to Contribute**
 Contributions are welcome! If you'd like to enhance the project or fix any issues, please fork the repository and submit a pull request. You can also open issues for bugs or feature requests.
 
-Contact
+**Contact**
 For any questions or feedback, feel free to reach out via GitHub or shu03bh@gmail.com
